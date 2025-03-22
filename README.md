@@ -6,6 +6,7 @@ This project focuses on estimating room occupancy using data collected from non-
 
 ------
 **Key Objectives**
+
 -Predict Room Occupancy: Use sensor data to estimate the number of occupants in a room.
 
 -Optimize Resource Utilization: Enable real-time adjustments to lighting, HVAC systems, and security protocols based on occupancy.
@@ -15,6 +16,7 @@ This project focuses on estimating room occupancy using data collected from non-
 -Enhance User Experience: Provide a comfortable and secure environment for occupants.
 --------
 **Dataset**
+
 The dataset used in this project was collected from a controlled environment over four days. It includes 10,129 instances and 18 features, such as:
 
 - Sensor Readings: Temperature, light, sound, CO2 levels, and PIR readings from multiple sensors.
@@ -22,6 +24,7 @@ The dataset used in this project was collected from a controlled environment ove
 - Target Variable: Room_Occupancy_Count, which indicates the exact number of occupants in the room.
 -----------
 **Dataset Features:**
+
 Date and Time: Timestamps for each reading.
 
 Temperature (S1-S4): Temperature readings from four sensors.
@@ -37,12 +40,14 @@ CO2 Slope: Rate of change in CO2 levels.
 PIR (S6-S7): Passive infrared sensor readings.
 
 Room_Occupancy_Count: The target variable indicating the number of occupants.
+
 ----------------
 **Methodology**
+
 The project follows a structured approach to develop and evaluate machine learning models for occupancy estimation:
 
 Exploratory Data Analysis (EDA): Analyze the dataset to understand the relationships between features and the target variable.
-
+----------------------
 **Data Preprocessing:**
 
 - Handle missing data.
