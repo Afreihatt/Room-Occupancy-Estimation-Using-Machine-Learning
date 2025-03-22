@@ -1,7 +1,9 @@
 # README: Machine Learning for Room Occupancy Estimation
 
 **Overview**
+
 This project focuses on estimating room occupancy using data collected from non-intrusive sensors. The goal is to optimize resource utilization, improve energy efficiency, and enhance user experience in smart buildings. The project employs machine learning techniques to predict room occupancy based on sensor data, including temperature, light, sound, CO2 levels, and passive infrared (PIR) readings.
+
 ------
 **Key Objectives**
 -Predict Room Occupancy: Use sensor data to estimate the number of occupants in a room.
