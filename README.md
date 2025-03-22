@@ -124,6 +124,7 @@ Before Balancing: Accuracy: 99.70%, Precision: 99.70%, Recall: 99.70%, F1 Score:
 After Balancing: Accuracy: 99.70%, Precision: 99.70%, Recall: 99.70%, F1 Score: 99.70%
 
 Best Parameters: {'learning_rate': 0.2, 'n_estimators': 200}
+
 -------------------------------------------
 **Results and Discussion**
 - Model Performance: All models achieved high accuracy, precision, recall, and F1-scores, indicating strong performance in predicting room occupancy.
@@ -133,8 +134,10 @@ Best Parameters: {'learning_rate': 0.2, 'n_estimators': 200}
 - Best Model: Random Forest performed the best, with the highest accuracy and stable performance across all metrics.
  
 - Reliability: The models showed no signs of overfitting or underfitting, and the results were consistent across training and test datasets.
+- 
 ---------------------------------------------
 **Limitations**
+
 Hyperparameter Sensitivity: All models are sensitive to hyperparameter choices, requiring careful tuning.
 
 Interpretability: Models like Random Forest, Gradient Boosting, and XGBoost are less interpretable compared to simpler models.
@@ -142,6 +145,6 @@ Interpretability: Models like Random Forest, Gradient Boosting, and XGBoost are 
 Computational Resources: SVM and ensemble methods can be computationally expensive, especially for large datasets.
 
 Overfitting Risk: Gradient Boosting and XGBoost are prone to overfitting if not properly tuned.
-
+--------------
 **Conclusion**
 This project successfully applied machine learning techniques to estimate room occupancy using sensor data. Random Forest emerged as the best-performing model, with high accuracy and reliability. The results demonstrate the potential of machine learning in optimizing resource utilization and improving energy efficiency in smart buildings. Future work will focus on advanced tuning techniques and real-time model monitoring to further enhance performance.
