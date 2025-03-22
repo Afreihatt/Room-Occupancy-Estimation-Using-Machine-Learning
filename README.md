@@ -14,6 +14,7 @@ This project focuses on estimating room occupancy using data collected from non-
 -Improve Energy Efficiency: Reduce energy consumption by ensuring resources are only used when needed.
 
 -Enhance User Experience: Provide a comfortable and secure environment for occupants.
+
 --------
 **Dataset**
 
@@ -47,12 +48,14 @@ Room_Occupancy_Count: The target variable indicating the number of occupants.
 The project follows a structured approach to develop and evaluate machine learning models for occupancy estimation:
 
 Exploratory Data Analysis (EDA): Analyze the dataset to understand the relationships between features and the target variable.
+
 ----------------------
 **Data Preprocessing:**
 
 - Handle missing data.
 
 - Use Synthetic Minority Over-sampling Technique (SMOTE) to address class imbalance in the target variable.
+  
 ------------------
 **Model Selection:**
 
@@ -63,15 +66,16 @@ Exploratory Data Analysis (EDA): Analyze the dataset to understand the relations
 -Gradient Boosting
 
 -XGBoost
+
 --------------------
 **Model Training and Evaluation:**
 
 - Use k-fold cross-validation to ensure robust model evaluation.
 
 - Optimize hyperparameters using GridSearchCV.
-
+---------------------
 **Performance Metrics:** Evaluate models using accuracy, precision, recall, and F1-score.
-
+----------------------
 **Machine Learning Models**
 The following models were evaluated for occupancy estimation:
 
@@ -79,7 +83,7 @@ The following models were evaluated for occupancy estimation:
 
 Strengths: Handles multiple features, reduces overfitting, and captures complex relationships.
 
-Performance:
+**Performance:**
 
 Before Balancing: Accuracy: 99.90%, Precision: 99.90%, Recall: 99.90%, F1 Score: 99.91%
 
